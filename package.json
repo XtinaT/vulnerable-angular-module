@@ -1,0 +1,31 @@
+{
+  "name": "vulnerable-angular-module",
+  "version": "1.0.0",
+  "description": "Educational package demonstrating Angular innerHTML XSS vulnerability",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"tsc"
+  },
+  "keywords": [
+    "angular",
+    "vulnerability",
+    "demo",
+    "xss"
+  ],
+  "author": "Xtina T",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/core": ">=12.0.0 <20.0.0",
+    "@angular/common": ">=12.0.0 <20.0.0",
+    "rxjs": "^7.0.0",
+    "tslib": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
